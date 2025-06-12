@@ -1,0 +1,10 @@
+webapps/sessiontest/
+├── sessiontest.jsp
+└── WEB-INF/
+    └── web.xml
+
+
+how do i start htttpd
+
+also 
+in client i want option to send to particular server from a list of available servers (that should not be static) and in case of bulk request if i manually tick a particular flag, the next request should go to other free server
