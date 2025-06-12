@@ -1,3 +1,9 @@
+i want to test sticky session using HTTPD
+
+I have tomcat servers:
+D:\Servers\instance1
+D:\Servers\instance2
+with structure:
 webapps/sessiontest/
 ├── sessiontest.jsp
 └── WEB-INF/
@@ -5,6 +11,5 @@ webapps/sessiontest/
 
 
 how do i start htttpd
-
 also 
 in client i want option to send to particular server from a list of available servers (that should not be static) and in case of bulk request if i manually tick a particular flag, the next request should go to other free server
